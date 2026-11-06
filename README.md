@@ -1,16 +1,74 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Preppilot AI
 
-Currently, two official plugins are available:
+AI-powered interview preparation platform designed
+to help developers prepare for technical interviews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Preppilot AI aims to provide an interactive
+environment for technical interview preparation
+using Generative AI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- Vite
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+## Features
+
+- User authentication
+- AI-generated interview questions
+- Technical interview practice
+- Performance tracking
+
+> Only list features that are actually implemented.
+
+## Project Structure
+
+preppilot-ai/
+├── backend/
+├── frontend/
+├── docs/
+├── .gitignore
+├── LICENSE
+└── README.md
+
+## Getting Started
+
+Clone the repository:
+
+    git clone https://github.com/kunal7-lab/preppilot-ai.git
+
+Install frontend dependencies:
+
+    cd frontend
+    npm install
+
+Install backend dependencies:
+
+    cd ../backend
+    npm install
+
+Configure environment variables using
+the provided .env.example files.
+
+## Documentation
+
+See the docs/ directory for project documentation.
+
+## Author
+
+Kunal Pimpalkar
+
+## Project Status
+
+Under active development.
+
